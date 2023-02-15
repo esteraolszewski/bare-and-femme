@@ -2,13 +2,13 @@ import styled from "styled-components";
 import ArrowLeftOutlined from '@mui/icons-material/ArrowLeftOutlined';
 import ArrowRightOutlined from '@mui/icons-material/ArrowRightOutlined';
 import { useState } from "react";
+import { sliderItems } from "../data.js";
 
 
 const Container = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
-    // background-color: pink;
     position: relative;
     overflow: hidden;
 `
@@ -35,7 +35,8 @@ const Arrow = styled.div`
 const Wrapper = styled.div`
     height: 100%;
     display: flex;
-    transform: translateX(0vw);
+    transition: all 1.5s ease;
+    transform: translateX(${props => props.slideIndex * -100}vw);
 `
 
 const Slide = styled.div`
@@ -81,7 +82,11 @@ const Button = styled.button`
 const Slider = () => {
     const [slideIndex, setSlideIndex] = useState(0);
     const handleClick = (direction) => {
-
+        if(direction === "left"){
+            setSlideIndex(slideIndex > 0 ? slideIndex -1 : 2)
+        } else {
+            setSlideIndex(slideIndex < 2 ? slideIndex +1 : 0)
+        }
     };
 
     return (
@@ -89,37 +94,19 @@ const Slider = () => {
             <Arrow direction="left" onClick={() => handleClick("left")}>
                 <ArrowLeftOutlined/>
             </Arrow>
-            <Wrapper>
-                <Slide bg="FFE4E1">
-                    <ImgContainer>
-                        <Image src="https://www.thearthritisconnection.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTc5MTc5Mzg0Mjk2NTgwMTQx/image-placeholder-title.png"/>
-                    </ImgContainer>
-                    <InfoContainer>
-                        <Title>WINTER SALE</Title>
-                        <Desc>DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.</Desc>
-                        <Button>SHOP NOW</Button>
-                    </InfoContainer>
-                </Slide>
-                <Slide bg="FFF5EE">
-                    <ImgContainer>
-                        <Image src="https://www.thearthritisconnection.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTc5MTc5Mzg0Mjk2NTgwMTQx/image-placeholder-title.png"/>
-                    </ImgContainer>
-                    <InfoContainer>
-                        <Title>SPRING SALE</Title>
-                        <Desc>DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.</Desc>
-                        <Button>SHOP NOW</Button>
-                    </InfoContainer>
-                </Slide>
-                <Slide bg="FFC0CB">
-                    <ImgContainer>
-                        <Image src="https://www.thearthritisconnection.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTc5MTc5Mzg0Mjk2NTgwMTQx/image-placeholder-title.png"/>
-                    </ImgContainer>
-                    <InfoContainer>
-                        <Title>SUMMER SALE</Title>
-                        <Desc>DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.</Desc>
-                        <Button>SHOP NOW</Button>
-                    </InfoContainer>
-                </Slide>
+            <Wrapper slideIndex={slideIndex}>
+                {sliderItems.map((item) => (
+                    <Slide bg={item.bg} key={item.id}>
+                        <ImgContainer>
+                            <Image src={item.img}/>
+                        </ImgContainer>
+                        <InfoContainer>
+                            <Title>{item.title}</Title>
+                            <Desc>{item.desc}</Desc>
+                            <Button>SHOP NOW</Button>
+                        </InfoContainer>
+                    </Slide>
+                ))}
             </Wrapper>
             <Arrow direction="right" onClick={() => handleClick("right")}>
                 <ArrowRightOutlined/>
