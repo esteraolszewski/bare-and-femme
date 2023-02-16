@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import {mobile} from "../responsive.js";
 
@@ -48,7 +49,11 @@ const CategoryItem = ({item}) => {
             <Image src={item.img}/>
             <Info>
                 <Title>{item.title}</Title>
-                <Button>SHOP NOW</Button>
+                <Button>
+                    <Link to="/productlist" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+                        SHOP NOW
+                    </Link>
+                </Button>
             </Info>
         </Container>
     )

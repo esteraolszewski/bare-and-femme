@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartOutlined from '@mui/icons-material/ShoppingCartOutlined';
 import Badge from '@mui/material/Badge';
 import {mobile} from "../responsive.js";
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
     height: 60px;
@@ -51,6 +52,7 @@ const Input = styled.input`
 const Center = styled.div`
     flex: 1;
     text-align: center;
+
 `
 
 const Logo = styled.h1`
@@ -88,14 +90,28 @@ const Navbar = () => {
                     </SearchContainer>
                 </Left>
                 <Center>
-                    <Logo>BARE & FEMME</Logo>
+                    <Logo>
+                        <Link to="/" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+                            BARE & FEMME
+                        </Link>
+                    </Logo>
                 </Center>
                 <Right>
-                    <MenuItem>REGISTER</MenuItem>
-                    <MenuItem>SIGN IN</MenuItem>
+                    <MenuItem>
+                        <Link to="/register" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+                            REGISTER
+                        </Link>
+                    </MenuItem>
+                    <MenuItem>
+                        <Link to="/login" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+                            SIGN IN
+                        </Link>
+                    </MenuItem>
                     <MenuItem>
                         <Badge badgeContent={4} color="primary">
-                            <ShoppingCartOutlined/>
+                            <Link to="/cart" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+                                <ShoppingCartOutlined/>
+                            </Link>
                         </Badge>
                     </MenuItem>
 
