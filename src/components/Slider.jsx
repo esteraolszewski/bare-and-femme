@@ -3,6 +3,7 @@ import ArrowLeftOutlined from '@mui/icons-material/ArrowLeftOutlined';
 import ArrowRightOutlined from '@mui/icons-material/ArrowRightOutlined';
 import { useState } from "react";
 import { sliderItems } from "../data.js";
+import {mobile} from "../responsive.js";
 
 
 const Container = styled.div`
@@ -11,6 +12,8 @@ const Container = styled.div`
     display: flex;
     position: relative;
     overflow: hidden;
+    ${mobile({display: "none"})};
+
 `
 
 const Arrow = styled.div`
@@ -36,20 +39,20 @@ const Wrapper = styled.div`
     height: 100%;
     display: flex;
     transition: all 1.5s ease;
-    transform: translateX(${props => props.slideIndex * -100}vw);
+    transform: translateX(${(props) => props.slideIndex * -100}vw);
 `
 
 const Slide = styled.div`
-    display: flex;
-    align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: #${props => props.bg}
+    display: flex;
+    align-items: center;
+    background-color: #${props => props.bg};
 `
 
 const ImgContainer = styled.div`
-    flex: 1;
     height: 100%;
+    flex: 1;
 `
 
 const Image = styled.img`
