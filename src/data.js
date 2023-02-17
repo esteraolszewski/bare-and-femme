@@ -1,23 +1,23 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://www.thearthritisconnection.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTc5MTc5Mzg0Mjk2NTgwMTQx/image-placeholder-title.png",
-      title: "WINTER SALE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      img: "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1670113558-220816_BC_FLLxVS_LOOK_77_0035_1800x.jpg",
+      title: "VALENTINE'S COLLECTION",
+      desc: "YOU DESERVE LOVE! SELF-LOVE BABY! BUY SOMETHING FOR YOURSELF TODAY.",
       bg: "FFE4E1",
     },
     {
       id: 2,
-      img: "https://fashionista.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg3NDg3NzUxODM3MzI4OTU2/new-york-fashion-week-fall-2022-trends.jpg",
-      title: "AUTUMN COLLECTION",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      img: "https://www.lavieenrose.com/globalassets/lver/pictures-basic/bras/169-113-1-00_10000_2_marina.jpg",
+      title: "ORIGINAL COLLECTION",
+      desc: "WHY FIX WHAT'S NOT BROKEN? SHOP FOR OUR ORIGINAL STYLES.",
       bg: "FFF5EE",
     },
     {
       id: 3,
-      img: "https://i.pinimg.com/originals/e7/19/95/e71995f86348ba541147f7c238ea7fb5.jpg",
-      title: "LOUNGEWEAR LOVE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      img: "https://i.etsystatic.com/14209882/r/il/3b3066/3797802006/il_340x270.3797802006_fmt0.jpg",
+      title: "ELEGANCE GALORE",
+      desc: "FEEL LIKE THE QUEEN YOU ARE EVERY DAY. GET FLAT 30% OFF FOR THESE NEW ARRIVALS ",
       bg: "FFC0CB",
     },
   ];
