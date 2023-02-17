@@ -46,7 +46,7 @@ const Button = styled.button`
 const CategoryItem = ({item}) => {
     return (
         <Container>
-            <Image src={item.img}/>
+            <Image src={item.src}/>
             <Info>
                 <Title>{item.title}</Title>
                 <Button>

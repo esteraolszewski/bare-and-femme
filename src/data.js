@@ -1,76 +1,76 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1670113558-220816_BC_FLLxVS_LOOK_77_0035_1800x.jpg",
+      src: "/images/0E8A5318.jpg",
       title: "VALENTINE'S COLLECTION",
       desc: "YOU DESERVE LOVE! SELF-LOVE BABY! BUY SOMETHING FOR YOURSELF TODAY.",
-      bg: "FFE4E1",
+      bg: "ECD4D4",
     },
     {
       id: 2,
-      img: "https://www.lavieenrose.com/globalassets/lver/pictures-basic/bras/169-113-1-00_10000_2_marina.jpg",
+      src: "/images/0E8A6553-2.jpg",
       title: "ORIGINAL COLLECTION",
       desc: "WHY FIX WHAT'S NOT BROKEN? SHOP FOR OUR ORIGINAL STYLES.",
-      bg: "FFF5EE",
+      bg: "E9EFEF",
     },
     {
       id: 3,
-      img: "https://i.etsystatic.com/14209882/r/il/3b3066/3797802006/il_340x270.3797802006_fmt0.jpg",
+      src: "/images/0E8A2015.jpg",
       title: "ELEGANCE GALORE",
       desc: "FEEL LIKE THE QUEEN YOU ARE EVERY DAY. GET FLAT 30% OFF FOR THESE NEW ARRIVALS ",
-      bg: "FFC0CB",
+      bg: "0E57B2",
     },
   ];
 
   export const categories = [
     {
         id: 1,
-        img: "https://johnryanbydesign.co.uk/wp-content/uploads/2018/11/keep-warm-in-winter.jpg",
-        title: "STAY WARM FOR LESS",
+        src: "/images/11.jpg",
+        title: "BEST SELLERS",
     },
     {
         id: 2,
-        img: "https://i.pinimg.com/originals/c3/e7/16/c3e716083c2d878762353e8ddfc9a852.jpg",
-        title: "COZY STYLE!",
+        src: "/images/33.jpg",
+        title: "BACK TO BASICS",
     },
     {
         id: 3,
-        img: "https://cdn.cliqueinc.com/posts/290603/best-affordable-loungewear-290603-1607103073893-fb.700x0c.jpg",
-        title: "LOUNGEWEAR LOVE",
+        src: "/images/22.jpg",
+        title: "ONE PIECE LOVE",
     },
   ]
 
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://media.allure.com/photos/6124840eff44499bda6c05ba/1:1/w_3744,h_3744,c_limit/Parade%20Silky%20Mesh%20Triangle%20Bra.png",
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://media.vogue.co.uk/photos/62825e9ae30a12bfeb4978c3/master/w_1280%2Cc_limit/lingerie_160522_agentp.png",
     },
     {
       id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+      img:"https://cdn.shopify.com/s/files/1/1078/7264/products/coco-de-mer-bra-alice-plunge-bra-29426359402544_2000x.png?v=1644403387",
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://res.cloudinary.com/wolfandbadger/image/upload/f_auto,q_auto:best,c_pad,h_800,w_800/products/lsglshqicch7flhpsvoj",
     },
     {
       id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      img:"https://res.cloudinary.com/wolfandbadger/image/upload/s--bwnqIHOT--/q_auto:eco/products/swrzfzioff3utxnelcpc",
     },
     {
       id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      img:"https://cdn.shopify.com/s/files/1/0635/5461/7558/products/ICECULOTTE_1024x.png?v=1664892583",
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://cdn.shopify.com/s/files/1/0087/5393/8498/products/9694_915_3-1152x1536.png?v=1634185913&width=1445",
     },
     {
       id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+      img:"https://cdn.shopify.com/s/files/1/0026/0820/1837/products/Lace-Back-Bikini_Flatlay_2400X2400_6ed04ef9-366e-46e9-8b80-d19a2d416fdf.png?v=1641846927",
     },
   ]

@@ -8,7 +8,7 @@ const Container = styled.div`
         rgba(255, 255, 255, 0.5),
         rgba(255, 255, 255, 0.5)
     ), 
-    url("https://s3.eu-west-2.amazonaws.com/files.sewport.com/blog/a-helpful-guide-to-successful-fashion-photoshoots-simple-%26-easy-tips/fashion-photoshoot.jpeg") center no-repeat;
+    url("/images/VOE6.jpg") center;
     background-size: cover;
     display: flex;
     align-items: center;

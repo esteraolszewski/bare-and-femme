@@ -28,12 +28,12 @@ const Left = styled.div`
     
 `
 
-const Language = styled.span`
-    font-size: 14px;
-    cursor: pointer;
-    ${mobile({display: "none"})};
+// const Language = styled.span`
+//     font-size: 14px;
+//     cursor: pointer;
+//     ${mobile({display: "none"})};
 
-`
+// `
 
 const SearchContainer = styled.div`
     border: 0.5px solid lightgray;
@@ -83,7 +83,7 @@ const Navbar = () => {
         <Container>
             <Wrapper>
                 <Left>
-                    <Language>EN</Language>
+                    {/* <Language>EN</Language> */}
                     <SearchContainer>
                         <Input placeholder='Search'/>
                         <SearchIcon style={{color:"gray", fontSize:16}}/> 

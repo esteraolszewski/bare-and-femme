@@ -191,12 +191,12 @@ const Cart = () => {
                     <Info>
                         <Product>
                             <ProductDetail>
-                                <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A"/>
+                                <Image src="https://res.cloudinary.com/wolfandbadger/image/upload/f_auto,q_auto:best,c_pad,h_800,w_800/products/lsglshqicch7flhpsvoj"/>
                                 <Details>
-                                    <ProductName><b>Product:</b> JESSIE THUNDER SHOES</ProductName>
+                                    <ProductName><b>Product:</b> BLACK LACE BRA</ProductName>
                                     <ProductId><b>ID:</b> 5652545635</ProductId>
                                     <ProductColour color="black"/>
-                                    <ProductSize><b>Size:</b> 37.5</ProductSize>
+                                    <ProductSize><b>Size:</b> S</ProductSize>
                                 </Details>
                             </ProductDetail>
                             <PriceDetail>
@@ -211,11 +211,11 @@ const Cart = () => {
                         <Hr/>
                         <Product>
                             <ProductDetail>
-                                <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png"/>
+                                <Image src="https://cdn.shopify.com/s/files/1/0635/5461/7558/products/ICECULOTTE_1024x.png?v=1664892583"/>
                                 <Details>
-                                    <ProductName><b>Product:</b> HAKURA T-SHIRT</ProductName>
+                                    <ProductName><b>Product:</b> FRILLY SWEET PANTIES</ProductName>
                                     <ProductId><b>ID:</b> 1586363263</ProductId>
-                                    <ProductColour color="gray"/>
+                                    <ProductColour color="lightblue"/>
                                     <ProductSize><b>Size:</b> M</ProductSize>
                                 </Details>
                             </ProductDetail>

@@ -8,7 +8,7 @@ const Container = styled.div`
         rgba(255, 255, 255, 0.5),
         rgba(255, 255, 255, 0.5)
     ), 
-    url("https://media.istockphoto.com/id/1171746484/photo/still-life-home-comfort-in-the-living-room.jpg?s=612x612&w=0&k=20&c=H_f8xWqHVX8q8MOz_N3XvQPKi0kSif_Mz45inigqleE=") center no-repeat;
+    url("/images/bandf.jpg") center ;
     background-size: cover;
     display: flex;
     align-items: center;
